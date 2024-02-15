@@ -1,4 +1,7 @@
 package Task1;
+
+import java.util.Comparator;
+
 public class Main {
 
     public static String comparisonResult(int R){
@@ -18,9 +21,8 @@ public class Main {
         String[] array5 = {"d","e","f","j"};
         String[] array6 = {"h","i"};
 
-        NewComparator<Integer> intComparator = new NewComparator<>();
-        NewComparator<String> charComparator = new NewComparator<>();
-
+        Comparator<Integer[]> intComparator = Comparator.comparingInt(arr -> arr.length);
+        Comparator<String[]> charComparator = Comparator.comparingInt(arr -> arr.length);
 
         System.out.println("Сравнение array1 и array2: " + comparisonResult(intComparator.compare(array1, array2)));
         System.out.println("Сравнение array2 и array3: " + comparisonResult(intComparator.compare(array2, array3)));
