@@ -2,7 +2,7 @@ package Task4;
 
 public class Main {
     public static void main(String[] args) {
-        MyExecutorService executorService = new MyExecutorService(3);
+        MyExecutorService executorService = new MyExecutorService(2);
         executorService.execute(() -> {
             try {
                 Thread.sleep(200);
@@ -11,7 +11,7 @@ public class Main {
             }
             System.out.println("We run it");
         });
-
+        
         executorService.execute(() -> System.out.println("Ready"));
         executorService.execute(() -> System.out.println("Set"));
         executorService.execute(() -> System.out.println("Go"));
