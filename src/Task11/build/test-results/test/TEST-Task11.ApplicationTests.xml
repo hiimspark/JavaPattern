@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Task11.ApplicationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2024-04-05T14:32:17" hostname="Matveys-MacBook-Air.local" time="0.423">
+  <properties/>
+  <testcase name="contextLoads()" classname="Task11.ApplicationTests" time="0.423"/>
+  <system-out><![CDATA[17:32:16.845 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [Task11.ApplicationTests]: ApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+17:32:16.883 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration Task11.Application for test class Task11.ApplicationTests
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v3.2.4)
+
+2024-04-05T17:32:17.033+03:00  INFO 50655 --- [demo] [    Test worker] Task11.ApplicationTests                  : Starting ApplicationTests using Java 21.0.2 with PID 50655 (started by spark in /Users/spark/IdeaProjects/JavaTemplates/src/Task11)
+2024-04-05T17:32:17.033+03:00  INFO 50655 --- [demo] [    Test worker] Task11.ApplicationTests                  : No active profile set, falling back to 1 default profile: "default"
+2024-04-05T17:32:17.707+03:00  INFO 50655 --- [demo] [    Test worker] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 13 endpoint(s) beneath base path '/actuator'
+2024-04-05T17:32:17.748+03:00  INFO 50655 --- [demo] [    Test worker] Task11.ApplicationTests                  : Started ApplicationTests in 0.814 seconds (process running for 1.323)
+]]></system-out>
+  <system-err><![CDATA[WARNING: A Java agent has been loaded dynamically (/Users/spark/.gradle/caches/modules-2/files-2.1/net.bytebuddy/byte-buddy-agent/1.14.12/be4984cb6fd1ef1d11f218a648889dfda44b8a15/byte-buddy-agent-1.14.12.jar)
+WARNING: If a serviceability tool is in use, please run with -XX:+EnableDynamicAgentLoading to hide this warning
+WARNING: If a serviceability tool is not in use, please run with -Djdk.instrument.traceUsage for more information
+WARNING: Dynamic loading of agents will be disallowed by default in a future release
+]]></system-err>
+</testsuite>
